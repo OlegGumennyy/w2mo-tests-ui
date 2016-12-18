@@ -1,9 +1,11 @@
-package com.logivations.w2mo.ui.tests.pages.crm;
+package com.logivations.w2mo.ui.interfaces;
 
 /*******************************************************************************
  * (C) Copyright
  * Logivations GmbH, Munich 2010-2016
  ******************************************************************************/
 
-public class CRMLayoutSelectorPage {
+public interface IPage {
+    String getTitle();
+    String getPopUpMessage();
 }

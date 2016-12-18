@@ -1,13 +1,13 @@
-package com.logivations.w2mo.ui.tests.pages.dbe.tables;
+package com.logivations.w2mo.ui.pages.dbe.reports;
 
-import com.logivations.w2mo.ui.tests.interfaces.ITable;
+import com.logivations.w2mo.ui.interfaces.IReport;
 
 /*******************************************************************************
  * (C) Copyright
  * Logivations GmbH, Munich 2010-2016
  ******************************************************************************/
 
-public class CRMTable1 implements ITable{
+public class CRMReport1 implements IReport {
     public String getTitle() {
         return null;
     }

@@ -1,13 +1,13 @@
-package com.logivations.w2mo.ui.tests.pages.warehouse;
+package com.logivations.w2mo.ui.pages.general;
 
-import com.logivations.w2mo.ui.tests.interfaces.IPage;
+import com.logivations.w2mo.ui.interfaces.IPage;
 
 /*******************************************************************************
  * (C) Copyright
  * Logivations GmbH, Munich 2010-2016
  ******************************************************************************/
 
-public class WHLayoutSelectorPage implements IPage {
+public class LayoutSelectorPage implements IPage {
     public String getTitle() {
         return null;
     }

@@ -1,13 +1,13 @@
-package com.logivations.w2mo.ui.tests.pages.dbe.reports;
+package com.logivations.w2mo.ui.pages.general;
 
-import com.logivations.w2mo.ui.tests.interfaces.IReport;
+import com.logivations.w2mo.ui.interfaces.IPage;
 
 /*******************************************************************************
  * (C) Copyright
  * Logivations GmbH, Munich 2010-2016
  ******************************************************************************/
 
-public class WHReport1 implements IReport {
+public class LanguagesPage implements IPage {
     public String getTitle() {
         return null;
     }

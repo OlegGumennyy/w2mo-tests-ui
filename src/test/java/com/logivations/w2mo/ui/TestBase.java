@@ -1,11 +1,9 @@
-package com.logivations.w2mo.ui.tests.interfaces;
+package com.logivations.w2mo.ui;
 
 /*******************************************************************************
  * (C) Copyright
  * Logivations GmbH, Munich 2010-2016
  ******************************************************************************/
 
-public interface IPage {
-    String getTitle();
-    String getPopUpMessage();
+public class TestBase {
 }

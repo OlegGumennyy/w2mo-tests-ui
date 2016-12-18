@@ -1,4 +1,4 @@
-package com.logivations.w2mo.ui.tests.pages.lno;
+package com.logivations.w2mo.ui.pages.lno;
 
 /*******************************************************************************
  * (C) Copyright

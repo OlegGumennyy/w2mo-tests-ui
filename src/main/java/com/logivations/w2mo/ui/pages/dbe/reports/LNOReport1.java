@@ -1,13 +1,13 @@
-package com.logivations.w2mo.ui.tests.pages.dbe.reports;
+package com.logivations.w2mo.ui.pages.dbe.reports;
 
-import com.logivations.w2mo.ui.tests.interfaces.IReport;
+import com.logivations.w2mo.ui.interfaces.IReport;
 
 /*******************************************************************************
  * (C) Copyright
  * Logivations GmbH, Munich 2010-2016
  ******************************************************************************/
 
-public class CRMReport1 implements IReport {
+public class LNOReport1 implements IReport {
     public String getTitle() {
         return null;
     }
