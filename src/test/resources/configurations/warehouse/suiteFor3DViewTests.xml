@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="3D View UI Tests">
+    <parameter name="serverUrl" value="http://localhost:8080/whapp"/>
+    <test name="Base Tests Initial">
+        <classes>
+            <class name="com.logivations.w2mo.ui.warehouse.threedview.Test3DViewElementsPanel"/>
+        </classes>
+    </test>
+</suite>

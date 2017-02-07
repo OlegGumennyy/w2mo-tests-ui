@@ -15,4 +15,9 @@ public class LNOTable1 implements ITable{
     public String getPopUpMessage() {
         return null;
     }
+
+    @Override
+    public Boolean isConsoleErrorsAppear() {
+        return null;
+    }
 }

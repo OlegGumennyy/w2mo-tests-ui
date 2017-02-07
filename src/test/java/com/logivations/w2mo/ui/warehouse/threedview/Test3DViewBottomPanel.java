@@ -1,9 +1,9 @@
-package com.logivations.w2mo.ui.pages.crm;
+package com.logivations.w2mo.ui.warehouse.threedview;
 
 /*******************************************************************************
  * (C) Copyright
  * Logivations GmbH, Munich 2010-2016
  ******************************************************************************/
 
-public class CRMLayoutSelectorPage {
+public class Test3DViewBottomPanel {
 }

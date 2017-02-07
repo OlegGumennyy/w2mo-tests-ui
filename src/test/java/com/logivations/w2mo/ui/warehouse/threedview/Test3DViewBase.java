@@ -1,12 +1,11 @@
-package com.logivations.w2mo.ui.interfaces;
+package com.logivations.w2mo.ui.warehouse.threedview;
 
 /*******************************************************************************
  * (C) Copyright
  * Logivations GmbH, Munich 2010-2016
  ******************************************************************************/
 
-public interface IPage {
-    String getTitle();
-    String getPopUpMessage();
-    Boolean isConsoleErrorsAppear();
+public class Test3DViewBase {
+
+
 }

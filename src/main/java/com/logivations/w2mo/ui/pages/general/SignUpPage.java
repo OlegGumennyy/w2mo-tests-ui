@@ -6,6 +6,7 @@ import com.sun.istack.internal.NotNull;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.getJavascriptErrors;
 
 /*******************************************************************************
  * (C) Copyright
@@ -35,6 +36,11 @@ public class SignUpPage implements IPage {
 
     public String getPopUpMessage() {
         return null;
+    }
+
+    @Override
+    public Boolean isConsoleErrorsAppear() {
+        return getJavascriptErrors().size() == 0;
     }
 
     public boolean sendUsername(String query){

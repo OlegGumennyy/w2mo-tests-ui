@@ -15,4 +15,9 @@ public class CRMReport1 implements IReport {
     public String getPopUpMessage() {
         return null;
     }
+
+    @Override
+    public Boolean isConsoleErrorsAppear() {
+        return null;
+    }
 }

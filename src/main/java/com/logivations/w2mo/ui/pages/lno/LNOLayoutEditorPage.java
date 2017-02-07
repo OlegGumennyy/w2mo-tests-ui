@@ -5,5 +5,5 @@ package com.logivations.w2mo.ui.pages.lno;
  * Logivations GmbH, Munich 2010-2016
  ******************************************************************************/
 
-public class LNOLayoutSelectorPage {
+public class LNOLayoutEditorPage {
 }
