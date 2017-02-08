@@ -16,7 +16,7 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public abstract class TablePage implements ITable {
 
-    public SelenideElement getValueFromCell(int row, int column){
+    public SelenideElement getSpecifiedCell(int row, int column){
         return $(By.xpath(cellLocatorGenerator(row, column)));
     }
 
