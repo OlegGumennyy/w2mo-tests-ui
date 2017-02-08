@@ -34,7 +34,7 @@ public class SignUpPage implements IPage {
         return null;
     }
 
-    public String getPopUpMessage() {
+    public SelenideElement getPopUpMessage() {
         return null;
     }
 

@@ -1,5 +1,6 @@
 package com.logivations.w2mo.ui.pages.general;
 
+import com.codeborne.selenide.SelenideElement;
 import com.logivations.w2mo.ui.interfaces.IPage;
 
 import static com.codeborne.selenide.Selenide.getJavascriptErrors;
@@ -14,7 +15,7 @@ public class LanguagesPage implements IPage {
         return null;
     }
 
-    public String getPopUpMessage() {
+    public SelenideElement getPopUpMessage() {
         return null;
     }
 

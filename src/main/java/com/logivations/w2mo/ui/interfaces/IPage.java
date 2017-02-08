@@ -1,5 +1,7 @@
 package com.logivations.w2mo.ui.interfaces;
 
+import com.codeborne.selenide.SelenideElement;
+
 /*******************************************************************************
  * (C) Copyright
  * Logivations GmbH, Munich 2010-2016
@@ -7,6 +9,6 @@ package com.logivations.w2mo.ui.interfaces;
 
 public interface IPage {
     String getTitle();
-    String getPopUpMessage();
+    SelenideElement getPopUpMessage();
     Boolean isConsoleErrorsAppear();
 }

@@ -69,7 +69,7 @@ public class WH3DViewPage implements IPage {
     }
 
     @Override
-    public String getPopUpMessage() {
+    public SelenideElement getPopUpMessage() {
         return null;
     }
 

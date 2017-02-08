@@ -21,7 +21,7 @@ public class WHLayoutEditorPage implements IPage {
         return null;
     }
 
-    public String getPopUpMessage() {
+    public SelenideElement getPopUpMessage() {
         return null;
     }
 

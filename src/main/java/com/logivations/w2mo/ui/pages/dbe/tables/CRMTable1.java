@@ -1,5 +1,6 @@
 package com.logivations.w2mo.ui.pages.dbe.tables;
 
+import com.codeborne.selenide.SelenideElement;
 import com.logivations.w2mo.ui.interfaces.ITable;
 
 /*******************************************************************************
@@ -12,7 +13,7 @@ public class CRMTable1 implements ITable{
         return null;
     }
 
-    public String getPopUpMessage() {
+    public SelenideElement getPopUpMessage() {
         return null;
     }
 

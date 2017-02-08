@@ -1,5 +1,6 @@
 package com.logivations.w2mo.ui.pages.dbe.reports;
 
+import com.codeborne.selenide.SelenideElement;
 import com.logivations.w2mo.ui.interfaces.IReport;
 
 /*******************************************************************************
@@ -12,7 +13,7 @@ public class LNOReport1 implements IReport {
         return null;
     }
 
-    public String getPopUpMessage() {
+    public SelenideElement getPopUpMessage() {
         return null;
     }
 

@@ -23,7 +23,7 @@ public class LoginPage implements IPage {
         return null;
     }
 
-    public String getPopUpMessage() {
+    public SelenideElement getPopUpMessage() {
         return null;
     }
 
