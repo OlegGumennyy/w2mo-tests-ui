@@ -1,20 +1,15 @@
 package com.logivations.w2mo.ui.pages.dbe.tables;
 
-import com.codeborne.selenide.*;
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.ElementsCollection;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
 
 /**
  * Created by horuk.t on 08.02.2017.
  */
-public abstract class TableActionsInputParameters extends TablePage {
-
-    /**
-     * Workforce tab
-     */
-
+public abstract class TableActionsInputParametersStaff extends TablePage{
     public void fillAddWorkingDaysForShiftInputs(int row,
                                                  int column,
                                                  String startDate,
@@ -100,9 +95,5 @@ public abstract class TableActionsInputParameters extends TablePage {
         $(By.cssSelector(".dialogMiddleCenter .gwt-toolbar-icon-save-foreign-key")).click();
         //Submit
         $(By.cssSelector(".dialogMiddleCenter .gwt-Button")).click();
-    }
-
-    private ElementsCollection getSpecifiedInputParameter() {
-        return $$(By.xpath("//*[@class='dialogMiddleCenter']//td[2]"));
     }
 }

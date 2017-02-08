@@ -24,6 +24,9 @@ public abstract class TablePage implements ITable {
         return "//tr[" + row + "]/td[" + column + "]";
     }
 
+    public ElementsCollection getSpecifiedInputParameter() {
+        return $$(By.xpath("//*[@class='dialogMiddleCenter']//td[2]"));
+    }
     public SelenideElement getPopUpMessage(){
         return $(By.cssSelector(".popupContent .gwt-Label"));
     }

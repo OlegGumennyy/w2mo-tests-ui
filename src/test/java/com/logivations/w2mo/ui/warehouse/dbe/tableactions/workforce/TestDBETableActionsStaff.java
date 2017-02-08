@@ -2,14 +2,11 @@ package com.logivations.w2mo.ui.warehouse.dbe.tableactions.workforce;
 
 import com.codeborne.selenide.Condition;
 import com.logivations.w2mo.ui.TestBase;
-import com.logivations.w2mo.ui.pages.dbe.tables.TableActionsInputParameters;
+import com.logivations.w2mo.ui.pages.dbe.tables.TableActionsInputParametersStaff;
 import com.logivations.w2mo.ui.pages.dbe.tables.TablePage;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
-import utilities.PropertyReader;
-
-import java.io.FileNotFoundException;
 
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.open;
@@ -22,7 +19,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class TestDBETableActionsStaff extends TestBase {
 
     TablePage tablePage;
-    TableActionsInputParameters inputParameters;
+    TableActionsInputParametersStaff inputParameters;
 
     private final String SUCCESS_TABLE_ACTION_RESULT_MESSAGE = "Action was successfully executed";
 
@@ -131,16 +128,4 @@ public class TestDBETableActionsStaff extends TestBase {
         tablePage.getPopUpMessage()
                 .shouldHave(Condition.text(SUCCESS_TABLE_ACTION_RESULT_MESSAGE));
     }
-
-    private String getWarehouseId() {
-        String warehouseID = null;
-        try {
-            warehouseID = PropertyReader
-                    .loadTestData("warehouse.id.dbe.staff");
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        return warehouseID;
-    }
-
 }

@@ -50,5 +50,16 @@ public class TestBase {
     private static void logout() {
         $(By.id("w2mo-logout-link")).click();
     }
+
+    public String getWarehouseId() {
+        String warehouseID = null;
+        try {
+            warehouseID = PropertyReader
+                    .loadTestData("warehouse.id.dbe.staff");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        return warehouseID;
+    }
 }
 
